@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Sabal Uprety | Résumé</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- header + h1 -->
+<header>
+    <h1>Sabal Uprety</h1>
+    <p><span class="job-title">Data Center Technician</span> | Roanoke, Texas</p>
+    <!-- nav with links to the other pages -->
+    <nav>
+        <a href="resume.html">Résumé</a>
+        <a href="cover-letter.html">Cover Letter</a>
+        <a href="career-goals.html">Career Goals</a>
+    </nav>
+</header>
+
+<main>
+    <!-- section + h2 -->
+    <section id="summary">
+        <h2>Professional Summary</h2>
+        <p>Data center technician with hands-on experience building, repairing, and
+        maintaining <strong>NVIDIA GPU systems</strong> at scale. Currently pursuing a
+        <em>Bachelor of Science in Computer Science.</em> at Western Governors University.</p>
+    </section>
+
+    <hr>
+
+    <section id="experience">
+        <h2>Experience</h2>
+
+        <!-- article + h3 -->
+        <article>
+            <h3>Data Center Technician, Amazon Web Services</h3>
+            <p>May 2026 – Present</p>
+            <ul>
+                <li>Perform hardware and network break-fix on production servers.</li>
+                <li>Support deployments, decommissions, and network runs on GB200/NVL72, B200, and Hopper systems.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Data Center Technician, Wistron</h3>
+            <p>Grapevine, Texas<br>April 2024 – May 2026</p>
+            <ul>
+                <li>Assembled and repaired NVIDIA HGX systems.</li>
+            </ul>
+        </article>
+
+        <article>
+            <h3>Security Consultant (VAPT)</h3>
+            <p>February 2026 - Present</p>
+            <ul>
+                <li>Perform vulnerability assessment and penetration testing.</li>
+            </ul>
+        </article>
+    </section>
+
+    <hr>
+
+    <section id="education">
+        <h2>Education</h2>
+        <p><strong>Western Governors University</strong>, B.S. Computer Science (in progress)<br>
+        <strong>Dallas College North Lake</strong>, A.S. Computer Science, 2022</p>
+
+        <!-- table: caption, 4 columns, 3+ rows -->
+        <table>
+            <caption>Completed WGU Courses</caption>
+            <tr>
+                <th>Code</th>
+                <th>Course</th>
+                <th>Key Skills</th>
+                <th>Status</th>
+            </tr>
+                        <tr>
+                <td>D197</td>
+                <td>Version Control</td>
+                <td>Git, GitLab</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>D287</td>
+                <td>Java Frameworks</td>
+                <td>Spring Boot, Thymeleaf</td>
+                <td>Completed</td>
+            </tr>
+            <tr>
+                <td>D387</td>
+                <td>Advanced Java</td>
+                <td>Spring Boot, Docker</td>
+                <td>Completed</td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>Contact: <a href="mailto:sabaluprety99@gmail.com">sabaluprety99@gmail.com</a></p>
+    <div id="current-date"></div>
+</footer>
+
+<script>
+    document.getElementById("current-date").textContent =
+        "Last viewed: " + new Date().toLocaleDateString();
+    console.log("Résumé page loaded successfully.");
+</script>
+
+</body>
+</html>
+
+
